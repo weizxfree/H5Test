@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eb548a0-8d0b-4272-a67b-ac93318b2e24" name="Default Changelist" comment="" />
+    <list default="true" id="9eb548a0-8d0b-4272-a67b-ac93318b2e24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/appealApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/appealApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debugmode/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debugmode/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tool-nativeSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tool-nativeSchema.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +19,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z3WqpkQSeZFZlVfExi2ETcRjk6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -44,5 +55,16 @@
       <updated>1584068451495</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

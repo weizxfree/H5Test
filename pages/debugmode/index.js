@@ -40,6 +40,7 @@ require([
         toast("您访问的链接有误")
         return
       }
+
       var debugmode = `debugmode?info_id=${info_id}`
       nativeSchema.loadSchema({
         // 通过NN打开某个链接
@@ -52,7 +53,7 @@ require([
         failUrl: "fail.html",
         // apk信息,请根据实际情况填写
         apkInfo: {
-          PKG: "cn.xxxx.xxxxx",
+          PKG: "com.sensorsdata.analytics.android.demo",
           CATEGORY: "android.intent.category.DEFAULT",
           ACTION: "android.intent.action.VIEW"
         }

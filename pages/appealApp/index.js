@@ -55,7 +55,8 @@ require([
     },
     appealApp() {
 
-      feature_code = "sa8a9ab067";
+      feature_code = "sab498952b";
+      connectType = "visualized";
       if (feature_code == null) {
         console.log("feature_code参数不能为空")
         toast("您访问的链接有误")
@@ -73,12 +74,12 @@ require([
         //schema头协议，实际情况填写
         protocal: protocal,
         //发起唤醒请求后，会等待loadWaiting时间，超时则跳转到failUrl，默认3000ms
-        loadWaiting: "3000",
+        loadWaiting: "20000",
         //唤起失败时的跳转链接，默认跳转到下载页
         failUrl: "fail.html",
         // apk信息,请根据实际情况填写
         apkInfo: {
-          PKG: "cn.xxxx.xxxxx",
+          PKG: "com.sensorsdata.analytics.android.demo",
           CATEGORY: "android.intent.category.DEFAULT",
           ACTION: "android.intent.action.VIEW"
         }

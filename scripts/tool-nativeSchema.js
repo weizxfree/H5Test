@@ -37,10 +37,10 @@
   var AppConfig = {
 
     // 协议头
-    PROTOCAL: "http",
+    PROTOCAL: "sab498952b",
 
     // 主页
-    HOME: "index.html",
+    HOME: "sab498952b",
 
     // 唤起失败时的跳转链接
     FAILBACK: {
@@ -50,7 +50,7 @@
 
     // Android apk 相关信息
     APK_INFO: {
-      PKG: "cn.xx.xx",
+      PKG: "com.sensorsdata.analytics.android.demo",
       CATEGORY: "android.intent.category.DEFAULT",
       ACTION: "android.intent.action.VIEW"
     },
@@ -110,7 +110,7 @@
       if (isAndroidChrome) {
         schemaStr = "intent://" + schemaStr + "#Intent;" +
           "scheme=" + AppConfig.PROTOCAL + ";" +
-          // "package=" + AppConfig.APK_INFO.PKG + ";" +
+//           "package=" + AppConfig.APK_INFO.PKG + ";" +
           "category=" + AppConfig.APK_INFO.CATEGORY + ";" +
           "action=" + AppConfig.APK_INFO.ACTION + ";" +
           "S.browser_fallback_url=" + encodeURIComponent(AppConfig.FAILBACK.ANDROID) + ";" +
