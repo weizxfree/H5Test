@@ -1,0 +1,62 @@
+html,
+body,
+.banner{
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+}
+div {
+	font-size: .28rem;
+	color: #475669;
+}
+.main-content, .weixin-content {
+	display: none;
+	text-align: center;
+	&.fail {
+		display: block;
+	}
+}
+.main-content {
+	padding-top: 3.3rem;
+	p {
+		margin-top: .6rem;
+		font-size: .26rem;
+		img {
+			width: .3rem;
+			vertical-align: middle;
+		}
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 .16rem;
+			font-size: .3rem;
+		}
+	}
+	.connect-fail-icon {
+		width: .32rem;
+		height: .32rem;
+		background: #FFBF00;
+		color: #FFFFFF;
+		border-radius: 50%;
+	}
+}
+.weixin-content {
+	img.tip {
+		position: absolute;
+		right: .6rem;
+		top: .2rem;
+		height: 1.3rem;
+		transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+	}
+	img.select-browser {
+		width: 300px;
+	}
+	div {
+		padding-top: .6rem;
+		width: 100%;
+		font-size: .36rem;
+		color: #535255;
+		line-height: .66rem;
+		font-weight: bold;
+	}
+}

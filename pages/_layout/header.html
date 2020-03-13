@@ -1,0 +1,29 @@
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+<meta content="telephone=no" name="format-detection"/>
+<script type='text/javascript'>
+	var win = window
+	var doc = win.document
+	var docEl = doc.documentElement
+	var resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize'
+	var recalc = function () {
+	  var clientWidth = docEl.clientWidth
+	  if (!clientWidth) return
+	  docEl.style.fontSize = (clientWidth >= 750 ? 100 : clientWidth / 7.5) + 'px'
+		var body = document.body || document.getElementsByTagName('body')[0]
+		if (clientWidth >= 750) {
+			body.setAttribute("data-width", "max")
+		} else {
+	    body.removeAttribute("data-width")
+		}
+	}
+	if (doc.addEventListener) {
+	  win.addEventListener(resizeEvt, recalc, false)
+	  doc.addEventListener('DOMContentLoaded', recalc, false)
+	}
+
+</script>
+<link rel="stylesheet" type="text/css" href="../../styles/common.less?__inline"/>

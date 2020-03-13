@@ -1,0 +1,9 @@
+#! /usr/bin/env node
+
+var opnBrowser = require("../index")
+var args = require("get-args")()
+
+
+opnBrowser(args.options.p || "3000")
+
+process.exit()
